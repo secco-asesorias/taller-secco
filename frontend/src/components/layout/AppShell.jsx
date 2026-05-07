@@ -42,10 +42,7 @@ export default function AppShell() {
   const navigate = useNavigate()
   const location = useLocation()
   const pathname = location.pathname || '/'
-<<<<<<< HEAD
   console.log("🚀 ~ AppShell ~ pathname:", pathname)
-=======
->>>>>>> eafb43ba3a95657a605076d820c2a3a724513a7a
   const esFullWidth = (
     pathname === '/' ||
     pathname.startsWith('/actas') ||
